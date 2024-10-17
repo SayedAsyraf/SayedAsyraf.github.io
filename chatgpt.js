@@ -1,3 +1,4 @@
-document.getElementById('alertButton').addEventListener('click', function() {
-    alert('Hello! This is a simple alert.');
+document.getElementById('showImageButton').addEventListener('click', function() {
+    const image = document.getElementById('myImage');
+    image.style.display = 'block'; // Show the image
 });
